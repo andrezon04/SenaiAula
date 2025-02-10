@@ -1,0 +1,25 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class problematroco {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Preço do produto: ");
+		double preço = sc.nextDouble();
+		
+		System.out.print("Quantidade comprada:");
+		double quantidade = sc.nextDouble();
+		
+		System.out.print("Dinheiro recebido: ");
+		double dinheiro = sc.nextDouble();
+		
+		double total = (dinheiro-(preço*quantidade));
+		
+		System.out.printf("O troco é: "+total);
+
+	}
+
+}

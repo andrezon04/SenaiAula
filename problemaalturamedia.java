@@ -17,7 +17,7 @@ public class problemaalturamedia {
 		System.out.print("Diga o nome da Pessoa 2: ");
 		String nome2 = scanner.nextLine();
 		
-		System.out.print("Diga a altura de" + nome2);
+		System.out.print("Diga a altura da Pessoa 2: ");
 		double altura2 = scanner.nextDouble();
 		
 		double alturamedia  = (altura + altura2 /2);

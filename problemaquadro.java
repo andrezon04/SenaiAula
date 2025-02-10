@@ -14,7 +14,7 @@ public class problemaquadro {
 	System.out.print("Informe a altura do retângulo: ");
 	double altura = scanner.nextDouble();
 	
-	System.out.pro
+	System.out.pr
 	
 	}
 }
